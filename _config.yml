@@ -17,6 +17,12 @@ highlight: true
 sass:
     sass_dir: sass
     style: :compressed
+    
+gems:
+- jekyll-sitemap
+- jekyll-gist
+
+plugins: apps
    
 # Preview server settings.
 host: 127.0.0.1
