@@ -17,7 +17,7 @@ highlight: true
 
 
 sass:
-  sass_dir: sass
+  sass_dir: styles
   style: :compressed
 
 # Gems and Apps.
