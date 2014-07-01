@@ -18,6 +18,7 @@ highlight: true
 # SourceCode
 source: source
 
+# Sass
 sass:
   sass_dir: styles
   style: :compressed
