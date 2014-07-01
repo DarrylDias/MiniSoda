@@ -15,6 +15,8 @@ permalink: :title
 # Syntax highlighting code.
 highlight: true
 
+# SourceCode
+source: source
 
 sass:
   sass_dir: styles
