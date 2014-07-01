@@ -15,8 +15,8 @@ permalink: :title
 highlight: true
 
 sass:
-   sass_dir: sass
-   style: :compressed
+    sass_dir: sass
+    style: :compressed
    
 # Preview server settings.
 host: 127.0.0.1
