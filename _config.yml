@@ -5,6 +5,7 @@ description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
 url: "http://yourdomain.com"
 
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -14,16 +15,18 @@ permalink: :title
 # Syntax highlighting code.
 highlight: true
 
+
 sass:
-    sass_dir: sass
-    style: :compressed
+  sass_dir: sass
+  style: :compressed
 
 # Gems and Apps.
 gems:
 - jekyll-sitemap
 - jekyll-gist
+
 plugins: apps
-   
+
 # Preview server settings.
 host: 0.0.0.0
 port: 3000
