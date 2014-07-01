@@ -27,3 +27,13 @@ github:
 bitbucket:
 google:
 twitter:
+
+# Deployment.
+
+# FTP.
+ftp_host: ""
+ftp_dir: ""
+ftp_passive: false
+ftp_post: 21
+ftp_username: ""
+ftp_password: ""
