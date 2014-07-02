@@ -5,6 +5,9 @@ description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
 url: "http://yourdomain.com"
 
+# RSS feed
+subscribe: /atom.xml
+
 
 # Build settings
 markdown: kramdown
