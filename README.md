@@ -11,3 +11,9 @@ A blogging framework build on top on Jekyll.
 sudo gem install bundler 
 bundle install
 ```
+
+**Starting Server**
+
+``` bash
+jekyll serve --watch
+```
