@@ -2,19 +2,25 @@
 layout: default
 ---
 
-<div class="home">
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in site.posts limit: 8 %}
+  <article>
+    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+    {% if post.content contains '<!--more-->' %}
 
-  <h1>Posts</h1>
+    {{ post.content | split:'<!--more-->' | first }}
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <p><a href="{{ post.url }}">View Post</a></p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% else %}
 
+    {{ post.content }}
+
+    {% endif %}
+  </article>
+  {% endfor %}
+  <div class="pagination">
+    <a href="/archives">Archives</a>
+  </div>
 </div>
