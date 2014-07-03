@@ -18,11 +18,13 @@ kramdown:
   input: GFM
 permalink: :title
 
-# Syntax highlighting code.
+# Syntax highlighting code
 highlight: true
 
-# SourceCode
+# Blog source folder
 source: source
+# Blog compiled folder
+destination: _deploy
 
 # Sass
 sass:
