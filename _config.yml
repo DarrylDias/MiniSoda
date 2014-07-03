@@ -5,6 +5,7 @@ email: your-email@domain.com
 description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
 url: "http://yourdomain.com"
+search_bar: https://google.com/search
 
 # RSS feed
 subscribe: /atom.xml
