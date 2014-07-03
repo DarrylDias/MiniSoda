@@ -5,7 +5,7 @@ author:
 email: your-email@domain.com
 description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
-url: "http://127.0.0.1:3000"
+url: "http://yodomain.com"
 search_bar: https://google.com/search
 
 # RSS feed
