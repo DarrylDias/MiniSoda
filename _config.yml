@@ -5,17 +5,19 @@ author:
 email: your-email@domain.com
 description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://127.0.0.1:3000"
 search_bar: https://google.com/search
 
 # RSS feed
 subscribe: /atom.xml
 
 
-# Build settings
+# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Example http://yodomain.com/my-awesome-mini-soda-blog/
 permalink: :title
 
 # Syntax highlighting code

@@ -6,30 +6,36 @@ navbar: Blog
 <div class="row">
   <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
     <div class="blog-index">
-      {% assign index = true %}
-      {% for post in paginator.posts %}
-      {% assign content = post.content %}
-        <article class="post">
-          {% include article.html %}
-        </article>
-      {% endfor %}
+    
+     <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      {% if post.content contains '<!--more-->' %}
+
+      {{ post.content | split:'<!--more-->' | first }}
+
+      <p><a href="{{ post.url }}">View Post</a></p>
+
+      {% else %}
+
+      {{ post.content }}
+
+      {% endif %}
     </div>
 
     <ul class="pager">
       {% if paginator.next_page %}
-        <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older</a></li>
+      <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older Posts</a></li>
       {% else %}
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+      <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
       {% endif %}
       <li><a href="/archives">Archives</a></li>
       {% if paginator.previous_page %}
-        <li class="next"><a href="{{paginator.previous_page}}">Newer&nbsp;&rarr;</a></li>
+      <li class="next"><a href="{{paginator.previous_page}}">Newer Posts&nbsp;&rarr;</a></li>
       {% else %}
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
+      <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
       {% endif %}
     </ul>
   </div>
 
-    <aside class="sidebar col-md-3">
-    </aside>
+  <aside class="sidebar col-md-3">
+  </aside>
 </div>
