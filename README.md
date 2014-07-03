@@ -20,7 +20,7 @@ bundle install
 ```
 
 
-** Generating static blog files.**
+**Generating static blog files.**
 
 ``` bash
 jekyll build
