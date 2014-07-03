@@ -3,6 +3,13 @@ MiniSoda
 
 A blogging framework build on top on Jekyll.
 
+#### Features
+
+* Github Flavored Markdown
+* SASS
+* Liquid templating
+* Built-in sitemap generator
+
 ### Setup
 
 **Installing**
@@ -10,6 +17,13 @@ A blogging framework build on top on Jekyll.
 ``` bash
 sudo gem install bundler 
 bundle install
+```
+
+
+** Generating static blog files.**
+
+``` bash
+jekyll build
 ```
 
 **Starting Server**
