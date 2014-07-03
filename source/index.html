@@ -1,22 +1,31 @@
 ---
 layout: default
+published: true
+---
+
+---
+layout: default
 ---
 
 <div class="blog-index">
   {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
+  {% for post in site.posts limit: 8 %}
+  <article>
+    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+    {% if post.content contains '<!--more-->' %}
+
+    {{ post.content | split:'<!--more-->' | first }}
+
+    <p><a href="{{ post.url }}">Read more</a></p>
+
+    {% else %}
+
+    {{ post.content }}
+
+    {% endif %}
+  </article>
   {% endfor %}
   <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
     <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
   </div>
 </div>
