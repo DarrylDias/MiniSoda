@@ -1,7 +1,7 @@
 # Site settings
 title: My awesome Blog title
 subtitle: Powered by MiniSoda
-author: 
+author:
 email: your-email@domain.com
 description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
@@ -49,7 +49,10 @@ github:
 bitbucket:
 google:
 twitter:
-disqus: 
+disqus:
+
+# Disqus comments switch true/false
+comments: false
 
 # Deployment.
 
