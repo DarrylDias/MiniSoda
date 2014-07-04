@@ -1,19 +1,27 @@
 # Site settings
 title: My awesome Blog title
-subtitle: Powered by MiniSoda
-author:
-email: your-email@domain.com
+tagline: Powered by MiniSoda
 description: "My awesome Blog powered by MiniSoda."
 baseurl: ""
 url: "http://yodomain.com"
-search_bar: https://google.com/search
+
+# Author
+author:
+  name:
+  email: your-email@domain.com
+
+# Website author
+author:
+  name: 'Darryl Dias'
+  url:  https://twitter.com/diasdarryl
 
 # RSS feed
 subscribe: /atom.xml
 
 
-# Markdown settings
+# Markdown Interpreter settings
 markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md 
 kramdown:
   input: GFM
 
