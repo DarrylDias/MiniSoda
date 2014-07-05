@@ -51,11 +51,11 @@ gems:
 plugins: apps
 
 # Social networks.
+twitter: 
+google: 
 github:
 bitbucket:
-google:
-twitter:
-disqus:
+disqus: 
 
 
 # Deployment.
