@@ -23,13 +23,13 @@ bundle install
 **Generating static blog files.**
 
 ``` bash
-jekyll build
+rake build
 ```
 
 **Starting Server**
 
 ``` bash
-jekyll serve --watch
+rake server
 ```
 
 MiniSoda is in development stage and may contain bugs. If you would like to contribute feel free. Report a bug [here](https://github.com/DarrylDias/MiniSoda/issues)
