@@ -29,7 +29,7 @@ kramdown:
 highlight: true
 
 # Blog source folder
-source: source
+source: _content
 # Blog compiled folder
 destination: _deploy
 
