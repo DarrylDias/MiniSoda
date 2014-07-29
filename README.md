@@ -32,4 +32,17 @@ rake build
 rake server
 ```
 
+MiniSoda uses the following string in its front-matter
+
+``` md
+---
+layout: post
+title:  
+date:   
+categories:
+comments:
+description:
+---
+```
+
 MiniSoda is in development stage and may contain bugs. If you would like to contribute feel free. Report a bug [here](https://github.com/DarrylDias/MiniSoda/issues)
