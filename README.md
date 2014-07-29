@@ -34,7 +34,7 @@ rake server
 
 MiniSoda uses the following string in its front-matter
 
-``` md
+``` yaml
 ---
 layout: post
 title:  
