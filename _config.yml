@@ -55,7 +55,10 @@ twitter:
 google: 
 github:
 bitbucket:
-disqus: 
+disqus:
+
+# Webmaster settings.
+google_site_verification:
 
 
 # Deployment.
