@@ -32,6 +32,10 @@
   <meta name="description" content="{{ site.description }}"> 
   {% endif %}
 
+  {% if page.google_site_verification == true %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {% endfor %}
+
   <!-- Google Authorship -->
   <a href="https://plus.google.com/{{ site.google }}?rel=author"></a>
   <!-- -->
