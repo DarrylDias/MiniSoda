@@ -1,7 +1,7 @@
 MiniSoda
 ========
 
-A blogging framework build on top on Jekyll.
+A blogging framework for artisan
 
 #### Features
 
