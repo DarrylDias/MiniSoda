@@ -52,6 +52,10 @@
   {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}">
   {% endif %}
+  
+    {% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}"/>
+    {% endif %}
 
   {% comment %} Google Authorship {% endcomment %}
   <a href="https://plus.google.com/{{ site.google }}?rel=author"></a>
