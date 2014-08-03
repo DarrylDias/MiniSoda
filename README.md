@@ -9,6 +9,8 @@ A blogging framework build on top on Jekyll.
 * SASS
 * Liquid templating
 * Built-in sitemap generator
+* Works with any Jekyll theme
+* Easy embeding of Gist.
 
 ### Setup
 
@@ -42,6 +44,7 @@ date:
 categories:
 comments:
 description:
+keywords:
 ---
 ```
 
