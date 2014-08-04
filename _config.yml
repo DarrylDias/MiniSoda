@@ -51,7 +51,7 @@ gems:
 - jekyll-sitemap
 - jekyll-gist
 
-plugins: apps
+plugins: addons
 
 # Social networks.
 twitter: 
