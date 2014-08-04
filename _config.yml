@@ -1,7 +1,7 @@
 # Site settings
 title: My awesome Blog title
-tagline: A blogging framework for artisan
-description: A blogging framework for artisan.
+tagline: A blogging framework for artisans
+description: A blogging framework for artisans.
 author:
 baseurl: ""
 url: "http://yodomain.com"
