@@ -39,6 +39,8 @@ sass:
   sass_dir: styles
   style: :compressed
 
+exclude: [styles/includes]
+
 
 # Preview server settings.
 host: 0.0.0.0
