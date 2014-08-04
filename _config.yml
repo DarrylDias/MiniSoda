@@ -1,7 +1,8 @@
 # Site settings
 title: My awesome Blog title
-tagline: Powered by MiniSoda
-description: "My awesome Blog powered by MiniSoda."
+tagline: A blogging framework for artisan
+description: A blogging framework for artisan.
+author:
 baseurl: ""
 url: "http://yodomain.com"
 
