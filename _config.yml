@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://yodomain.com"
 
 # Example http://yodomain.com/my-awesome-mini-soda-blog/
-permalink: :title
+permalink: /post/:title
 # Limit post per page
 paginate: 8
 
