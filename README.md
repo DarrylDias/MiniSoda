@@ -11,6 +11,7 @@ A blogging framework for artisan
 * Built-in sitemap generator
 * Works with any Jekyll theme
 * Easy embeding of Gist.
+* Clean syntax highlighting
 
 ### Setup
 
