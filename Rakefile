@@ -22,7 +22,7 @@ end
 desc "Generating static files and watching output: _deploy"
 task :build do
    puts "Generating static files and watching output: _deploy"
-   system "jekyll build"
+   system "jekyll build --watch"
 end
 
 
