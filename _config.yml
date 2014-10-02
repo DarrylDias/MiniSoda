@@ -5,8 +5,12 @@ title: My awesome Blog title
 
 # tagline (short intro)
 tagline: A blogging framework for artisans
+
 # description (meta description indexed my search engine bots)
 description: A blogging framework for artisans.
+
+# keywords used by users to find your website through search engines
+keywords: 
 
 # if you website is deployed in a sub-folder change the attribute
 baseurl: ""
