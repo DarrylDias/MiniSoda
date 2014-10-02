@@ -8,9 +8,26 @@
                 <li>
                     <a href="/archives/">Archives</a>
                 </li>
+                {% if site.subscribe %}
                 <li>
                     <a href="{{ site.subscribe }}">Feed</a>
                 </li>
+                {% endif %}
+                {% if site.twitter %}
+                <li>
+                    <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>
+                </li>
+                {% endif %}
+                {% if site.google %}
+                <li>
+                    <a href="https://google.com/{{ site.google }}">Google Plus</a>
+                </li>
+                {% endif %}
+                {% if site.facebook %}
+                <li>
+                    <a href="https://facebook.com/{{ site.facebook }}">Facebook</a>
+                </li>
+                {% endif %}
             </ul>
         </nav>
     </section>
