@@ -21,6 +21,8 @@ url: "http://yodomain.com"
 # The url adressing of your website http://yodomain.com/post/my-awesome-mini-soda-blog/
 permalink: /post/:title
 
+# Permalink to pages
+paginate_path: "/page/:num"
 # Number of post displayed per page
 paginate: 4
 
