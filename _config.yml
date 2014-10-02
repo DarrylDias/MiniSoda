@@ -1,0 +1,70 @@
+# Site settings
+title: My awesome Blog title
+tagline: A blogging framework for artisans
+description: A blogging framework for artisans.
+author:
+baseurl: ""
+url: "http://yodomain.com"
+
+# Example http://yodomain.com/my-awesome-mini-soda-blog/
+permalink: /post/:title
+# Limit post per page
+paginate: 8
+
+# RSS feed
+subscribe: /atom.xml
+
+# Author
+author:
+  name:
+  email:
+
+# Markdown Interpreter settings
+markdown: kramdown
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+kramdown:
+  input: GFM
+
+
+# Syntax highlighting code
+highlight: true
+
+# Blog source folder
+source: content
+# Blog compiled folder
+destination: _deploy
+
+# Sass
+sass:
+  sass_dir: styles
+  style: :compressed
+
+exclude: [
+    'Gemfile',
+
+]
+
+
+# Preview server settings.
+host: 0.0.0.0
+port: 3000
+
+# Gems and Apps.
+gems:
+- jekyll-sitemap
+- jekyll-gist
+
+plugins: addons
+
+# Social networks.
+twitter: 
+google: 
+github:
+bitbucket:
+disqus:
+
+google_analytics_id:
+
+# Webmaster settings.
+google_site_verification:
+bing_site_verification:

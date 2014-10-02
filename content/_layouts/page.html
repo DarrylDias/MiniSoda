@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="post">
+	<h2>{{ page.title }}</h2>
+	<a href="#">{{ page.keywords }}</a>
+	</div>
+
+	{{ content }}
+
+{% if page.comments == true %}
+{% include disqus.html %}
+{% endif %}
+</article>
