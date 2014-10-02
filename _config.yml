@@ -1,23 +1,32 @@
 # Site settings
+
+# site title
 title: My awesome Blog title
+
+# tagline (short intro)
 tagline: A blogging framework for artisans
+# description (meta description indexed my search engine bots)
 description: A blogging framework for artisans.
-author:
+
+# if you website is deployed in a sub-folder change the attribute
 baseurl: ""
+
+# domain (your website url
 url: "http://yodomain.com"
 
-# Example http://yodomain.com/my-awesome-mini-soda-blog/
+# The url adressing of your website http://yodomain.com/post/my-awesome-mini-soda-blog/
 permalink: /post/:title
-# Limit post per page
-paginate: 8
 
-# RSS feed
+# Number of post displayed per page
+paginate: 4
+
+# RSS/Atom feed
 subscribe: /atom.xml
 
-# Author
+# Author name and email config
 author:
   name:
-  email:
+  email: 
 
 # Markdown Interpreter settings
 markdown: kramdown
@@ -29,9 +38,10 @@ kramdown:
 # Syntax highlighting code
 highlight: true
 
-# Blog source folder
+# website source folder
 source: content
-# Blog compiled folder
+
+# website compiled output folder
 destination: _deploy
 
 # Sass
@@ -39,21 +49,24 @@ sass:
   sass_dir: styles
   style: :compressed
 
+# File that don't need to be processed.
 exclude: [
-    'Gemfile',
-
+    'Gemfile'
+    'Gemfile.lock'
 ]
 
 
-# Preview server settings.
+# Webserver settings.
 host: 0.0.0.0
 port: 3000
 
-# Gems and Apps.
+# Gems and Plugins
 gems:
 - jekyll-sitemap
 - jekyll-gist
+- jemoji
 
+# 3rd Party plugins foler
 plugins: addons
 
 # Social networks.
@@ -63,8 +76,9 @@ github:
 bitbucket:
 disqus:
 
-google_analytics_id:
-
 # Webmaster settings.
 google_site_verification:
 bing_site_verification:
+
+# Google Analytics
+google_analytics_id:

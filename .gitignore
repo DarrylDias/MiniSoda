@@ -1,5 +1,7 @@
 _site/
 _deploy/
-Gemfile.lock
+.sass-cache/
 .idea/
+Thumbs.db
 .c9/
+Gemfile.lock
