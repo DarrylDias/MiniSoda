@@ -66,7 +66,7 @@ sass:
 # File that don't need to be processed.
 exclude: [
     'Gemfile',
-    'Gemfile.lock'
+    'Gemfile.lock',
     'README.md'
 ]
 
