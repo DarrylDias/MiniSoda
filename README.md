@@ -8,15 +8,15 @@ MiniSoda is an Octopress 3 RC based static blog generator designed to be kept si
 
 Add this line to your application's Gemfile:
 
-    ``` 
-    git clone git@github.com:DarrylDias/MiniSoda.git
-    ```
+``` 
+git clone git@github.com:DarrylDias/MiniSoda.git
+```
 
 And then execute:
 
-    ```
-    bundle
-    ```
+```
+bundle
+```
 
 ## Basic Usage
 
