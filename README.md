@@ -1,4 +1,4 @@
-# Octopress
+# MiniSoda
 
 MiniSoda is an Octopress 3 RC based static blog generator designed to be kept simple and easy to use. MiniSoda is faster than most static website/blog generator.
 
