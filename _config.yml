@@ -52,6 +52,12 @@ source: content
 destination: _deploy
 
 
+jekyll-press:
+  exclude: 'robots.txt' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  js_options: {}      # js minifier options
+  css_options: {}     # css minifier options
+  html_options: {}    # html minifier options
+  
 # Sass settings
 sass:
   sass_dir: styles
@@ -71,7 +77,6 @@ port: 3000
 # Gems and Plugins
 gems:
 - jekyll-sitemap
-- jekyll-press
 - jekyll-gist
 - jemoji
 
