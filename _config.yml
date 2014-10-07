@@ -46,7 +46,7 @@ kramdown:
 highlight: true
 
 # website source folder
-source: content
+source: source
 
 # website compiled output folder
 destination: _deploy
