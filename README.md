@@ -190,7 +190,7 @@ Only `git_url` and `site_dir` is important to be edited.
 | Config        | Description                                      | Default
 |:--------------|:-------------------------------------------------|:---------------|
 | `method`      | Deployment method, in this case use 'git'        |                |
-| `site_dir`    | Path to static site files                        | _deploy        |
+| `site_dir`    | Path to static site files                        | _site          |
 | `git_url`     | Url for remote git repository                    |                |
 | `git_branch`  | Deployment branch for git repository             | master         |
 | `deploy_dir`  | Directory where deployment files are staged      | .deploy        |
