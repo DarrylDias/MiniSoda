@@ -49,7 +49,7 @@ highlight: true
 source: source
 
 # website compiled output folder
-destination: _deploy
+destination: _site
 
 
 jekyll-press:
