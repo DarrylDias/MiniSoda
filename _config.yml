@@ -60,7 +60,7 @@ jekyll-press:
   
 # Sass settings
 sass:
-  sass_dir: styles
+  sass_dir: 
   style: :compressed
 
 # File that don't need to be processed.
