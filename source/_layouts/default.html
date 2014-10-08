@@ -1,16 +1,16 @@
-<!DOCTYPE HTML>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 {% include head.html %}
 <body>
-{% include header.html %}
-</body>
-<section id="content">
-{{ content }}
+	<section>
+		<header>
+			<a class="logo" href="/">{{ site.title }}</a>
+			<!-- Main Menu -->
+			{% include navigation.html %}
+			<hr/>
+		</header>
 
-{% include paginate.html %}
-</section>
-
+		{{ content }}
 
 
 {% include footer.html %}

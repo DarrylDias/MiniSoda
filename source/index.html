@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-<ul class="article-list">
-  <li>
-    {% for post in paginator.posts %}
-    <article>
-      <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <div class="meta">
-        Published: {{ post.date | date_to_string }}
-      </div>
-    </article>
-    {% endfor %}
-  </li>
-</ul>
+
+{% for post in paginator.posts %}
+
+	<article>
+		<header>
+			<h1>
+				<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			</h1>
+			<small>{{ post.date | date_to_string }}</small>
+		</header>
+		<p>{{ post.description }}</p>
+	</article>
+{% endfor %}
+
+<!-- Pagination -->
+{% include paginate.html %}
