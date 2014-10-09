@@ -1,5 +1,11 @@
 <nav role="main">
-		<a href="{{ site.url }}">Home</a>
-		<a href="{{ site.url }}/archives">Archives</a>
-		<a href="https://github.com/DarrylDias/MiniSoda">MiniSoda</a>
+	<a class="nav-home" href="{{ site.url }}">Home</a>
+	{% assign pages_list = site.pages %}
+	{% for node in pages_list %}
+	{% if node.title != null %}
+	{% if node.layout == "page" %}
+	<a class="nav-option" href="{{ node.url }}">{{ node.title }}</a>
+	{% endif %}
+	{% endif %}
+	{% endfor %}
 </nav>
